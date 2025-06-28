@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Just Between Friends Café</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+header {
+  background: url('assets/images/hero-placeholder.jpg') center/cover no-repeat;
+  ...
+}
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      color: white;
+      background-color: #1a1a1a;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+    .btn {
+      background: #fff;
+      color: #1a1a1a;
+      padding: 0.75rem 1.5rem;
+      margin: 0.5rem;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f2f2f2;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Specialty Coffee in the Heart of Manchester</h1>
+    <p>Cosy interiors. Small-batch brews. Just Between Friends.</p>
+    <div>
+      <button class="btn">☕ View Menu</button>
+      <button class="btn">📍 Find Us</button>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Hidden away on Tib Street in the Northern Quarter, Just Between Friends is your neighbourhood spot for quality coffee and good conversation.
+    We serve carefully sourced single-origin coffee from <strong>Assembly</strong>, fresh pastries, and honest food — all in a setting designed for comfort, calm, and connection.</p>
+  </section>
+
+  <section id="menu">
+    <h2>What’s Brewing</h2>
+    <ul>
+      <li><strong>Espresso & Batch Brew</strong> – crafted using beans from Assembly Coffee</li>
+      <li><strong>Toasties & Bagels</strong> – made fresh daily</li>
+      <li><strong>Pastries & Cakes</strong> – including vegan options</li>
+    </ul>
+    <button class="btn">📄 View Full Menu</button>
+  </section>
+
+  <section id="gallery">
+    <h2>Our Space</h2>
+    <div class="gallery">
+     <img src="assets/images/image1.jpg" alt="Coffee and Pastries">
+      <img src="assets/images/image2.jpg" alt="Interior">
+      <img src="assets/images/image3.jpg" alt="Seating Area">
+      <img src="assets/images/image4.jpg" alt="Barista Making Coffee">
+      <img src="assets/images/image5.jpg" alt="Shop Front">
+      <img src="assets/images/image6.jpg" alt="Menu Board">
+    </div>
+  </section>
+
+  <section id="visit">
+    <h2>Come Say Hi</h2>
+    <p>📍 56 Tib Street, Manchester M4 1LG<br>
+    🕒 Mon–Fri: 8:00–16:00 | Sat–Sun: 8:30–16:00</p>
+    <iframe src="https://maps.google.com/maps?q=56%20Tib%20Street,%20Manchester&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <p>Instagram: <a href="https://www.instagram.com/justbetweenfriendscoffee/" target="_blank">@justbetweenfriendscoffee</a></p>
+    <form>
+      <input type="text" placeholder="Your Name" required><br><br>
+      <input type="email" placeholder="Your Email" required><br><br>
+      <textarea placeholder="Your Message" rows="4" required></textarea><br><br>
+      <button class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Just Between Friends • Built by Zennex Media 💻
+  </footer>
+</body>
+</html>
