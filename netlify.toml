@@ -1,0 +1,4 @@
+[build]
+  base = "just-between-friends"
+  publish = "."
+  command = ""
